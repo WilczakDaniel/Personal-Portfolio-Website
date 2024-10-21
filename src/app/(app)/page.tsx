@@ -24,15 +24,15 @@ export default Home;
 
 export function generateMetadata(): Metadata {
     return {
-        metadataBase: new URL('https://rafalnawojczyk.pl'),
+        metadataBase: new URL('https://dwcode.pl'),
         alternates: {
             canonical: '/',
         },
-        title: 'Rafał Nawojczyk - Front-End Developer Portfolio',
-        description: 'Software Engineer portfolio website made by Rafał Nawojczyk.',
+        title: 'Daniel Wilczak Code',
+        description: 'Daniel Wilczak Code.',
         openGraph: mergeOpenGraph({
-            title: 'Rafał Nawojczyk - Front-End Developer Portfolio',
-            description: 'Software Engineer portfolio website made by Rafał Nawojczyk.',
+            title: 'Daniel Wilczak Code',
+            description: 'Software Engineer portfolio website made by Daniel Wilczak Code.',
             url: '/blog',
         }),
         robots: null,
