@@ -13,8 +13,9 @@ import { mergeOpenGraph, metadataIcons } from '@/utils';
 const Home = () => {
     return (
         <>
-            <main className={`${styles.homepage}`}>
+            <main>
                <div>DW Code</div>
+               <span>XD</span>
             </main>
         </>
     );
