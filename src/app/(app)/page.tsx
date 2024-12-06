@@ -15,7 +15,6 @@ const Home = () => {
         <>
             <main>
                <div>DW Code</div>
-               <span>XD</span>
             </main>
         </>
     );
